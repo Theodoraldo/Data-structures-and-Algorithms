@@ -36,3 +36,43 @@
 
 <p>&nbsp;</p>
 <strong>Follow-up:&nbsp;</strong>Can you come up with an algorithm that is less than&nbsp;<code>O(n<sup>2</sup>)&nbsp;</code>time complexity?</div>
+
+
+------
+```javascript
+
+<p>JAVASCRIPT</p>
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function (nums, target) {
+  for (var i = 0; i < nums.length - 1; i++) {
+    if (nums[i] + nums[i + 1] === target) {
+      return [i, (i + 1)];
+    }
+  }
+};
+```
+
+------
+
+
+------
+```ruby
+
+<p>RUBY</p>
+# @param {Integer[]} nums
+# @param {Integer} target
+# @return {Integer[]}
+def two_sum(nums, target)
+  (0..nums.length - 2).each do |i|
+    if nums[i] + nums[i + 1] == target
+      return [i, i + 1]
+    end
+  end
+end
+```
+
+------
