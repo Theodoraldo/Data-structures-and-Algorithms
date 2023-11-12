@@ -39,6 +39,9 @@
 
 ------
 ```javascript
+
+JAVASCRIPT
+=================================
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -56,7 +59,8 @@ var twoSum = function (nums, target) {
 
 ```ruby
 
-<h1>RUBY</h2>
+RUBY
+================================
 # @param {Integer[]} nums
 # @param {Integer} target
 # @return {Integer[]}
