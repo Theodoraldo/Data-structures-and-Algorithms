@@ -37,11 +37,8 @@
 <p>&nbsp;</p>
 <strong>Follow-up:&nbsp;</strong>Can you come up with an algorithm that is less than&nbsp;<code>O(n<sup>2</sup>)&nbsp;</code>time complexity?</div>
 
-<h1>SOLUTION</h1>
 ------
 ```javascript
-
-<h1>JAVASCRIPT</h1>
 /**
  * @param {number[]} nums
  * @param {number} target
