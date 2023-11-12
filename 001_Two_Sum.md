@@ -37,11 +37,11 @@
 <p>&nbsp;</p>
 <strong>Follow-up:&nbsp;</strong>Can you come up with an algorithm that is less than&nbsp;<code>O(n<sup>2</sup>)&nbsp;</code>time complexity?</div>
 
-
+<h1>SOLUTION</h1>
 ------
 ```javascript
 
-<p>JAVASCRIPT</p>
+<h1>JAVASCRIPT</h1>
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -55,14 +55,11 @@ var twoSum = function (nums, target) {
   }
 };
 ```
-
 ------
 
-
-------
 ```ruby
 
-<p>RUBY</p>
+<h1>RUBY</h2>
 # @param {Integer[]} nums
 # @param {Integer} target
 # @return {Integer[]}
@@ -74,5 +71,4 @@ def two_sum(nums, target)
   end
 end
 ```
-
 ------
