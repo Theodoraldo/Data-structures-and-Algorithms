@@ -48,28 +48,14 @@ JAVASCRIPT
  * @return {number[]}
  */
 var twoSum = function (nums, target) {
-  for (var i = 0; i < nums.length - 1; i++) {
-    if (nums[i] + nums[i + 1] === target) {
-      return [i, (i + 1)];
-    }
-  }
+  const numIndices = {};
+  for (let i = 0; I < nums.length; i++) {
+    const complement = target - nums[I];
+    if (numIndices[complement] !== undefined) {
+	return [numIndices[complement], i];
+     }
+    numIndices[nums[i]] = i;
+   }
 };
-```
-------
-
-```ruby
-
-RUBY
-================================
-# @param {Integer[]} nums
-# @param {Integer} target
-# @return {Integer[]}
-def two_sum(nums, target)
-  (0..nums.length - 2).each do |i|
-    if nums[i] + nums[i + 1] == target
-      return [i, i + 1]
-    end
-  end
-end
 ```
 ------
