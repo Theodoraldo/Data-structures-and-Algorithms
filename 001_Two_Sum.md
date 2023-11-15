@@ -49,8 +49,8 @@ JAVASCRIPT
  */
 var twoSum = function (nums, target) {
   const numIndices = {};
-  for (let i = 0; I < nums.length; i++) {
-    const complement = target - nums[I];
+  for (let i = 0; i < nums.length; i++) {
+    const complement = target - nums[i];
     if (numIndices[complement] !== undefined) {
 	return [numIndices[complement], i];
      }
